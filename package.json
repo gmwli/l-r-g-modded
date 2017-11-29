@@ -1,0 +1,122 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "local-reverse-geocoder@^0.3.2",
+        "scope": null,
+        "escapedName": "local-reverse-geocoder",
+        "name": "local-reverse-geocoder",
+        "rawSpec": "^0.3.2",
+        "spec": ">=0.3.2 <0.4.0",
+        "type": "range"
+      },
+      "/Users/ciruelas/Desktop/switchboard_parse_server"
+    ]
+  ],
+  "_from": "local-reverse-geocoder@>=0.3.2 <0.4.0",
+  "_id": "local-reverse-geocoder@0.3.2",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/local-reverse-geocoder",
+  "_nodeVersion": "8.1.2",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/local-reverse-geocoder-0.3.2.tgz_1499866364836_0.21263524144887924"
+  },
+  "_npmUser": {
+    "name": "tomayac",
+    "email": "steiner.thomas@gmail.com"
+  },
+  "_npmVersion": "5.0.4",
+  "_phantomChildren": {
+    "array-flatten": "1.1.1",
+    "body-parser": "1.18.2",
+    "content-type": "1.0.4",
+    "debug": "2.6.9",
+    "depd": "1.1.1",
+    "encodeurl": "1.0.1",
+    "forwarded": "0.1.2",
+    "http-errors": "1.6.2",
+    "methods": "1.1.2",
+    "mime-types": "2.1.17",
+    "ms": "2.0.0",
+    "on-finished": "2.3.0",
+    "parseurl": "1.3.2",
+    "qs": "6.5.1",
+    "safe-buffer": "5.1.1",
+    "type-is": "1.6.15",
+    "unpipe": "1.0.0"
+  },
+  "_requested": {
+    "raw": "local-reverse-geocoder@^0.3.2",
+    "scope": null,
+    "escapedName": "local-reverse-geocoder",
+    "name": "local-reverse-geocoder",
+    "rawSpec": "^0.3.2",
+    "spec": ">=0.3.2 <0.4.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/local-reverse-geocoder/-/local-reverse-geocoder-0.3.2.tgz",
+  "_shasum": "918c0bb0fb190759a37026e91a9907d3797445f3",
+  "_shrinkwrap": null,
+  "_spec": "local-reverse-geocoder@^0.3.2",
+  "_where": "/Users/ciruelas/Desktop/switchboard_parse_server",
+  "author": {
+    "name": "Thomas Steiner"
+  },
+  "bugs": {
+    "url": "https://github.com/tomayac/local-reverse-geocoder/issues"
+  },
+  "dependencies": {
+    "async": "^2.5.0",
+    "csv-parse": "^1.2.0",
+    "express": "^4.15.3",
+    "kdt": "^0.1.0",
+    "request": "^2.81.0",
+    "unzip2": "^0.2.5"
+  },
+  "description": "Implements a local reverse geocoder based on GeoNames",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-kcTtWn5fH4fxZez8Zao15ym3VBOXPKFVFyKHT+R6afNts45A9x3RfPSn9S4b4jUQ8G3v74WwEoPet9/DkEmtJw==",
+    "shasum": "918c0bb0fb190759a37026e91a9907d3797445f3",
+    "tarball": "https://registry.npmjs.org/local-reverse-geocoder/-/local-reverse-geocoder-0.3.2.tgz"
+  },
+  "engines": {
+    "node": ">=4.8.x",
+    "npm": ">=2.15.x"
+  },
+  "gitHead": "5831e7e2ba4b6cee075df3a02bb2638f508b4124",
+  "homepage": "https://github.com/tomayac/local-reverse-geocoder",
+  "keywords": [
+    "geocoding",
+    "geocoder",
+    "reverse",
+    "local"
+  ],
+  "license": "Apache-2.0",
+  "main": "geocoder.js",
+  "maintainers": [
+    {
+      "name": "tomayac",
+      "email": "steiner.thomas@gmail.com"
+    }
+  ],
+  "name": "local-reverse-geocoder",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomayac/local-reverse-geocoder.git"
+  },
+  "scripts": {
+    "build": "jsdoc -d docs geocoder.js",
+    "lint": "jshint --exclude ./node_modules,./docs/scripts .",
+    "start": "node app.js"
+  },
+  "version": "0.3.2"
+}
