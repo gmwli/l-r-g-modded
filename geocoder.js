@@ -41,8 +41,8 @@ var unzip = require('unzip2');
 var async = require('async');
 var readline = require('readline');
 
-// All data from http://download.geonames.org/export/dump/
-var GEONAMES_URL = 'http://download.geonames.org/export/dump/';
+// All data from http://download.geonames.org/export/dump/ -> https://s3.amazonaws.com/switchboard-dependencies/local-reverse-geocoder/
+var GEONAMES_URL = 'https://s3.amazonaws.com/switchboard-dependencies/local-reverse-geocoder/';
 
 var CITIES_FILE = 'cities1000';
 var ADMIN_1_CODES_FILE = 'admin1CodesASCII';
